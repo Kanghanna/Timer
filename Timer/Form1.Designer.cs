@@ -39,14 +39,7 @@
             // 
             this.Timer.Interval = 1000;
             this.Timer.Tick += new System.EventHandler(this.Timer_Tick);
-            // 
-            // txtNum
-            // 
-            this.txtNum.Location = new System.Drawing.Point(24, 12);
-            this.txtNum.Name = "txtNum";
-            this.txtNum.Size = new System.Drawing.Size(172, 21);
-            this.txtNum.TabIndex = 0;
-            this.txtNum.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+ 
             // 
             // btnCount
             // 
@@ -56,6 +49,7 @@
             this.btnCount.TabIndex = 1;
             this.btnCount.Text = "카운트다운";
             this.btnCount.UseVisualStyleBackColor = true;
+            this.btnCount.Click += new System.EventHandler(this.BtnCount_Click);
             // 
             // txtCountDown
             // 
